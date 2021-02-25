@@ -1,3 +1,4 @@
+
 import g4p_controls.*;
 GWindow finestra1, finestra2, finestra3;
 
@@ -9,10 +10,10 @@ PImage info, pompa, societa, societa1;
 
 void setup() {
   size(500, 700, JAVA2D);
-  info=loadImage("img/icona informazione.png");
-  pompa=loadImage("img/pompa.jpg");
-  societa=loadImage("img/societa.png");
-  societa1=loadImage("img/societa.png");
+  info=loadImage("../img/icona informazione.png");
+  pompa=loadImage("../img/pompa.jpg");
+  societa=loadImage("../img/societa.png");
+  societa1=loadImage("../img/societa.png");
 }
 
 void draw() {
